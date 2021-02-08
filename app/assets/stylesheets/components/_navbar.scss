@@ -1,0 +1,28 @@
+#navbar {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  min-height: 68px;
+  background-color: linear-gradient(to bottom, rgba(153, 185, 170, 1), rgba(221, 231, 226, 1));
+}
+
+#navbar h4{
+padding-left: 20px;
+}
+
+#navbar a{
+  padding-right: 20px;
+  color: $lettertype;
+  text-decoration: none;  
+}
+
+#logo {
+
+}
+
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
